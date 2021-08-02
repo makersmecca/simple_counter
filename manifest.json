@@ -2,7 +2,7 @@
     "name": "TheSimpleCounter",
     "short_name": "Simple Counter",
     "start_url": "index.html",
-    "display": "standalone",
+    "display": "fullscreen",
     "background_color": "#333",
     "theme_color": "dimgrey",
     "orientation": "portrait-primary"
