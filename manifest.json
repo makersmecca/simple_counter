@@ -1,0 +1,15 @@
+{
+    "name": "The Simple Counter",
+    "short_name": "Simple Counter",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#333",
+    "theme_color": "#000000",
+    "orientation": "portrait primary",
+    "icons":[
+        {
+            "src": "/images/Picture1.ico",
+            "type": "images/ico"
+        }
+    ]
+}
