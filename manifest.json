@@ -5,12 +5,13 @@
     "display": "standalone",
     "background_color": "#333",
     "theme_color": "dimgrey",
-    "orientation": "portrait-primary"
+    "orientation": "portrait-primary",
     
-    "icons": [
+    "icons": 
+    [
         {
-            "src":"\images\icon.ico",
-            "type": "image\ico"
+            "src":"images/icon.ico",
+            "type": "image/ico"
         }
     ]
 
