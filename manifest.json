@@ -9,7 +9,7 @@
     "icons":[
         {
             "src": "/images/Picture1.ico",
-            "type": "images/ico"
+            "type": "/images/ico"
         }
     ]
 }
