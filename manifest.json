@@ -9,8 +9,8 @@
     
     "icons": [
         {
-            "src":"/images/icon.ico",
-            "type": "image/ico"
+            "src":"\images\icon.ico",
+            "type": "image\ico"
         }
     ]
 
