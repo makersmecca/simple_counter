@@ -3,6 +3,8 @@
     "short_name": "Simple Counter",
     "start_url": "index.html",
     "display": "standalone",
+    "scope": ".",
+    "description": "Sample Page to test PWA",
     "background_color": "#333",
     "theme_color": "#000000",
     "orientation": "portrait-primary",
