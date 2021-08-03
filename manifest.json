@@ -10,7 +10,8 @@
         {
             "src": "/images/icon-512.png",
             "type": "/image/png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "any"
             
         },
         
@@ -18,14 +19,14 @@
             "src": "/images/icon-192.png",
             "type": "/image/png",
             "sizes": "192x192",
-            "purpose": "maskable any"
+            "purpose": "any"
         },
         
         {
             "src": "/images/icon-144.png",
             "type": "/image/png",
             "sizes": "144x144",
-            "purpose": "maskable any"
+            "purpose": "any"
         }
     ]
 }
