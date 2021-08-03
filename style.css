@@ -22,7 +22,7 @@ h1{
 
 
 .boxed {
-    box-align: center;
+    align: center;
     width: 620px;
     border: 1px solid white;
     font-size:100px ;
