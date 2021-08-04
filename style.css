@@ -37,8 +37,8 @@ button{
     width:30%;
     border: none;
     border-radius: 8px;
-    padding-top:50%;
-    padding-bottom:auto;
+    padding-top:100%;
+    padding-bottom:100%;
     margin: 100px 10px;
     margin-bottom:50px;
 
