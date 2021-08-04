@@ -22,7 +22,7 @@ h1{
 
 
 .boxed {
-    width: 620px;
+    width: 60%;
     border: 1px solid white;
     font-size:100px ;
     margin:100px auto; /*<top/bottom> <left/right>*/
@@ -34,7 +34,7 @@ h1{
 button{
     font-size: 50px;
     margin-top: 50px;
-    width:300px;
+    width:30%;
     border: none;
     border-radius: 8px;
     padding-top:100px;
