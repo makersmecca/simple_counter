@@ -31,6 +31,9 @@ h1{
     
     margin:100px auto; /*<top/bottom> <left/right>*/
     border-radius: 10px;
+    
+    padding-right: 7%;
+    padding-left: 7%;
 }
 
 button{
@@ -39,8 +42,8 @@ button{
     width:30%;
     border: none;
     border-radius: 8px;
-    padding-top:5%;
-    padding-bottom:5%;
+    padding-top:7%;
+    padding-bottom:7%;
     
     margin-top: 50px;
     margin: 5px 10px;
