@@ -1,4 +1,4 @@
-const staticSimpleCounter = "the-simple-counter-3"
+const staticSimpleCounter = "the-simple-counter-1"
 const assets = [
     "/",
     "index.html",
