@@ -10,6 +10,7 @@ const assets = [
     "images/icon.png"
 ]
 
+//install event
 self.addEventListener("install", installEvent =>
 {
     installEvent.waitUntil
@@ -17,9 +18,26 @@ self.addEventListener("install", installEvent =>
         caches.open(staticSimpleCounter).then(cache=>
             {
                 cache.addAll(assets)
+                console.log('caching assets')
             })
-    )
-})
+    );
+});
+
+// activate event
+self.addEventListener('activate', evt => {
+  //console.log('service worker activated');
+  evt.waitUntil(
+    caches.keys().then(keys => {
+      //console.log(keys);
+      return Promise.all(keys
+        .filter(key => key !== staticSimpleCounter)
+        .map(key => caches.delete(key))
+      );
+    })
+  );
+});
+
+
 
 self.addEventListener("fetch", fetchEvent =>
 {
@@ -29,6 +47,6 @@ self.addEventListener("fetch", fetchEvent =>
             {
                 return res||fetch(fetchEvent.request)
             })
-    )
-})
+    );
+});
 
