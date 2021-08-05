@@ -1,4 +1,4 @@
-const staticSimpleCounter = "the-simple-counter"
+const staticSimpleCounter = "the-simple-counter-2"
 const assets = [
     "/",
     "index.html",
@@ -37,7 +37,7 @@ self.addEventListener('activate', evt => {
   );
 });
 
-
+//fetch event
 
 self.addEventListener("fetch", fetchEvent =>
 {
